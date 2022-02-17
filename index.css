@@ -508,6 +508,10 @@ html{
 
 
 @media screen and (max-width: 415px){
+	
+	.viscounter{
+		justify-content: center !important;
+	}
     .part1{
         flex-direction: column;
     }
@@ -636,7 +640,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+	flex-wrap:wrap;
 }
 
 .sectionText{
